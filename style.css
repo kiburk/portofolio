@@ -1,0 +1,83 @@
+.mainbar {
+    height: 30px;
+    background-color: rgb(80, 80, 80);
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    color: antiquewhite;
+}
+
+header {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.nav-menu a:hover {
+    color:rgb(0, 160, 157);
+    text-decoration: underline;
+}
+
+h1 {
+    height: 30px;
+    background-color: rgb(80, 80, 80);
+    color: rgb(243, 236, 227);
+}
+
+p {
+    text-align: justify;
+    padding-left: 30px;
+    line-height: 20px;
+}
+
+#skills i {
+    font-size: 40px; /* Adjust size as needed */
+    color: #1b0d18; /* Change icon color if needed */
+    letter-spacing: 30px;
+}
+
+.contactgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 20px; /* Space between columns */
+    width: 100%; /* Ensure full width */
+    max-width: 1200px; /* Set a maximum width to the container */
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%; /* Make inputs take full width */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
